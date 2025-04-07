@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gates of Olympus Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">Gates of Olympus Clone</div>
+    <div class="coin-count">Koin: <span id="coins">1000</span></div>
+    <div class="grid" id="grid"></div>
+    <div class="buttons">
+      <button onclick="spin(false)">Spin</button>
+      <button onclick="buyFreeSpin()">Beli Free Spin</button>
+    </div>
+    <div class="free-spin" id="freeSpinInfo"></div>
+    <div class="multiplier" id="multiplierDisplay"></div>
+    <audio id="winSound" src="https://www.myinstants.com/media/sounds/slot-machine-win.mp3"></audio>
+    <audio id="zapSound" src="https://www.myinstants.com/media/sounds/thunder1.mp3"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
